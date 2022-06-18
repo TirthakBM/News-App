@@ -5,7 +5,7 @@ import 'package:news_app/model.dart';
 
 Future<List<NewsApiModel>> getNews() async {
   Uri uri = Uri.parse(
-      'https://newsapi.org/v2/everything?q=apple&from=2022-04-29&to=2022-04-29&sortBy=popularity&apiKey=a82ad6e64b614cbc9956b29c50d50d95');
+      'https://newsapi.org/v2/everything?q=apple&from=2022-06-17&to=2022-06-17&sortBy=popularity&apiKey=a82ad6e64b614cbc9956b29c50d50d95');
 
   final response = await http.get(uri);
 
